@@ -42,7 +42,6 @@ public class Sender extends Thread{
 				}catch (Exception e) {
 					System.out.println("예외>Sender>run1:"+e);
 				}
-				
 			}
 			
 			//Q를 입력하면 스트림과 소켓을 모두 종료한다.
